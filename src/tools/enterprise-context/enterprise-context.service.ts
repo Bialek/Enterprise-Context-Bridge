@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, Logger } from '@nestjs/common';
 import * as fs from 'fs';
 import * as path from 'path';
 
@@ -7,21 +7,35 @@ export interface EnterpriseContextParams {
   system_module?: string;
 }
 
+export interface JiraTicket {
+  id: string;
+  [key: string]: unknown;
+}
+
+export interface MockEnterpriseData {
+  jira: JiraTicket[];
+  sap: {
+    btp: Record<string, unknown>;
+    hana: Record<string, unknown>;
+  };
+}
+
 @Injectable()
 export class EnterpriseContextService {
-  private mockData: any;
+  private readonly logger = new Logger(EnterpriseContextService.name);
+  private mockData!: MockEnterpriseData;
 
   constructor() {
     this.loadMockData();
   }
 
-  private loadMockData() {
+  private loadMockData(): void {
     try {
       const dataPath = path.join(process.cwd(), 'data', 'mock-enterprise.json');
       const raw = fs.readFileSync(dataPath, 'utf-8');
-      this.mockData = JSON.parse(raw);
+      this.mockData = JSON.parse(raw) as MockEnterpriseData;
     } catch (e) {
-      console.error('Failed to load mock enterprise data:', e);
+      this.logger.error('Failed to load mock enterprise data', e);
       this.mockData = { jira: [], sap: { btp: {}, hana: {} } };
     }
   }
@@ -29,11 +43,11 @@ export class EnterpriseContextService {
   /**
    * Retrieves enterprise context (simulate Jira / SAP BTP / SAP HANA)
    */
-  async getContext(params: EnterpriseContextParams) {
-    const result: any = {};
+  async getContext(params: EnterpriseContextParams): Promise<Record<string, unknown>> {
+    const result: Record<string, unknown> = {};
 
     if (params.ticket_id) {
-      const ticket = this.mockData.jira.find((t: any) => t.id === params.ticket_id);
+      const ticket = this.mockData.jira.find((t) => t.id === params.ticket_id);
       if (ticket) {
         result.jira_ticket = ticket;
       } else {
@@ -52,6 +66,6 @@ export class EnterpriseContextService {
       }
     }
 
-    return result;
+    return Promise.resolve(result);
   }
 }

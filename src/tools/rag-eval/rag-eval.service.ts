@@ -12,7 +12,7 @@ export class RagEvalService {
    * Evaluates an LLM answer based on question and context.
    * Uses simple token overlap heuristics in pure TypeScript.
    */
-  async evaluate(params: RagEvalParams) {
+  evaluate(params: RagEvalParams): Record<string, unknown> {
     const questionTokens = this.tokenize(params.question);
     const answerTokens = this.tokenize(params.answer);
     const contextTokens = this.tokenize(params.context);
@@ -47,7 +47,7 @@ export class RagEvalService {
    * Simple tokenizer for heuristic overlap calculation
    */
   private tokenize(text: string): Set<string> {
-    const words = text.toLowerCase().match(/\b\w+\b/g) || [];
+    const words = text.toLowerCase().match(/\b\w+\b/g) ?? [];
     // Ignore common stop words for basic heuristic
     const stopWords = new Set(['the', 'a', 'an', 'and', 'or', 'but', 'is', 'are', 'was', 'were', 'to', 'in', 'on', 'with', 'by', 'for', 'of', 'this', 'that', 'it']);
     return new Set(words.filter(w => !stopWords.has(w)));
@@ -57,7 +57,9 @@ export class RagEvalService {
    * Calculates what portion of source tokens exist in target tokens
    */
   private calculateOverlapRatio(source: Set<string>, target: Set<string>): number {
-    if (source.size === 0) return 0;
+    if (source.size === 0) {
+      return 0;
+    }
     
     let overlapCount = 0;
     for (const token of source) {

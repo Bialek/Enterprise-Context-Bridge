@@ -15,12 +15,12 @@ const SENSITIVE_PATTERNS = [
 /**
  * Recursively masks sensitive fields in an object
  */
-export function maskSensitiveData(data: any): any {
+export function maskSensitiveData(data: unknown): unknown {
   if (typeof data !== 'object' || data === null) {
     if (typeof data === 'string') {
       let masked = data;
       for (const pattern of SENSITIVE_PATTERNS) {
-        masked = masked.replace(pattern.regex, pattern.mask as string);
+        masked = masked.replace(pattern.regex, pattern.mask);
       }
       return masked;
     }
@@ -31,8 +31,8 @@ export function maskSensitiveData(data: any): any {
     return data.map(maskSensitiveData);
   }
 
-  const maskedObj: any = {};
-  for (const [key, value] of Object.entries(data)) {
+  const maskedObj: Record<string, unknown> = {};
+  for (const [key, value] of Object.entries(data as Record<string, unknown>)) {
     // Check if the key itself suggests sensitivity
     if (/key|secret|token|password|auth/i.test(key) && typeof value === 'string') {
       maskedObj[key] = '***MASKED***';

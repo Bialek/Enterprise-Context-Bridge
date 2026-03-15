@@ -9,11 +9,11 @@ export class AuditLogService implements OnModuleInit {
   private auditFile: string;
 
   constructor(private configService: ConfigService) {
-    this.logDir = this.configService.get<string>('LOG_DIR') || './logs';
+    this.logDir = this.configService.get<string>('LOG_DIR') ?? './logs';
     this.auditFile = path.join(this.logDir, 'audit.jsonl');
   }
 
-  onModuleInit() {
+  onModuleInit(): void {
     if (!fs.existsSync(this.logDir)) {
       fs.mkdirSync(this.logDir, { recursive: true });
     }
@@ -22,7 +22,7 @@ export class AuditLogService implements OnModuleInit {
   /**
    * Logs a tool call to the audit file
    */
-  async logToolCall(toolName: string, input: any, output: any, duration: number) {
+  logToolCall(toolName: string, input: unknown, output: unknown, duration: number): void {
     const entry = {
       timestamp: new Date().toISOString(),
       tool: toolName,
@@ -38,7 +38,7 @@ export class AuditLogService implements OnModuleInit {
   /**
    * Logs an agent trace
    */
-  async logTrace(stepName: string, input: any, output: any) {
+  logTrace(stepName: string, input: unknown, output: unknown): string {
     const traceFile = path.join(this.logDir, 'agent-traces.jsonl');
     const entry = {
       timestamp: new Date().toISOString(),

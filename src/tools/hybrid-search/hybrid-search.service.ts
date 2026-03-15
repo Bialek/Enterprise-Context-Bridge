@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, Logger } from '@nestjs/common';
 import { OpenSearchService } from '../../opensearch/opensearch.service';
 import * as fs from 'fs';
 import * as path from 'path';
@@ -8,40 +8,48 @@ export interface HybridSearchParams {
   top_k?: number;
 }
 
+interface MockDoc {
+  title: string;
+  text: string;
+  url: string;
+  metadata: Record<string, unknown>;
+}
+
 @Injectable()
 export class HybridSearchService {
-  private mockDocs: any[] = [];
+  private readonly logger = new Logger(HybridSearchService.name);
+  private mockDocs: MockDoc[] = [];
 
   constructor(private openSearchService: OpenSearchService) {
     this.loadMockDocs();
   }
 
-  private loadMockDocs() {
+  private loadMockDocs(): void {
     try {
       const dataPath = path.join(process.cwd(), 'data', 'mock-docs.json');
       const raw = fs.readFileSync(dataPath, 'utf-8');
-      this.mockDocs = JSON.parse(raw);
+      this.mockDocs = JSON.parse(raw) as MockDoc[];
     } catch (e) {
-      console.error('Failed to load mock docs:', e);
+      this.logger.error('Failed to load mock docs', e);
     }
   }
 
   /**
    * Search across OpenSearch. Falls back to mock JSON if unavailable.
    */
-  async searchDocs(params: HybridSearchParams) {
-    const topK = params.top_k || 5;
+  async searchDocs(params: HybridSearchParams): Promise<unknown> {
+    const topK = params.top_k ?? 5;
 
     if (this.openSearchService.getAvailability()) {
       try {
         return await this.openSearchService.hybridSearch(params.query, topK);
       } catch (e) {
-        console.error('OpenSearch query failed, falling back to mock search.', e);
+        this.logger.warn('OpenSearch query failed, falling back to mock search.', e);
       }
     }
 
     // Fallback: Simple keyword match on mock data
-    console.error('Using mock data for hybrid search tool');
+    this.logger.warn('Using mock data for hybrid search tool');
     const queryTerms = params.query.toLowerCase().split(/\s+/);
     
     // Sort docs by how many terms match their text/title

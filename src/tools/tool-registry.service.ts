@@ -6,6 +6,8 @@ import { HybridSearchService } from './hybrid-search/hybrid-search.service';
 import { RagEvalService } from './rag-eval/rag-eval.service';
 import { AuditLogService } from '../observability/audit-log.service';
 import { maskSensitiveData } from '../common/data-masking.util';
+import { TOOL_DEFINITIONS } from './tool-definitions.config';
+import { Tool } from '@modelcontextprotocol/sdk/types.js';
 
 @Injectable()
 export class ToolRegistryService {
@@ -20,66 +22,16 @@ export class ToolRegistryService {
   /**
    * Returns MCP tool definitions
    */
-  async getToolDefinitions() {
-    return [
-      {
-        name: 'hybrid_search_docs',
-        description: 'Performs a search across Enterprise documentation. Can handle semantic queries about SAP, Jira, and internal architecture.',
-        inputSchema: {
-          type: 'object',
-          properties: {
-            query: { type: 'string', description: 'The search query or question' },
-            top_k: { type: 'number', description: 'Number of results to return (default 5)' },
-          },
-          required: ['query'],
-        },
-      },
-      {
-        name: 'run_rag_evaluation',
-        description: 'Evaluates an LLM answer against retrieved context. Returns Faithfulness, Relevancy, and Hallucination Risk metrics.',
-        inputSchema: {
-          type: 'object',
-          properties: {
-            question: { type: 'string', description: 'Original user question' },
-            answer: { type: 'string', description: 'Generated answer to evaluate' },
-            context: { type: 'string', description: 'Source context used to generate the answer' },
-          },
-          required: ['question', 'answer', 'context'],
-        },
-      },
-      {
-        name: 'get_enterprise_context',
-        description: 'Retrieves data from mocked enterprise systems (Jira, SAP BTP, SAP HANA). Extracts statuses or ticket details.',
-        inputSchema: {
-          type: 'object',
-          properties: {
-            ticket_id: { type: 'string', description: 'e.g. ECB-101' },
-            system_module: { type: 'string', description: 'e.g. btp or hana' },
-          },
-        },
-      },
-      {
-        name: 'log_agent_trace',
-        description: 'Logs agent thought process and step outcomes for observability systems.',
-        inputSchema: {
-          type: 'object',
-          properties: {
-            step_name: { type: 'string', description: 'Name of the reasoning or action step' },
-            input: { type: 'object', description: 'Inputs to the step' },
-            output: { type: 'object', description: 'Outputs or conclusions of the step' },
-          },
-          required: ['step_name', 'input', 'output'],
-        },
-      },
-    ];
+  getToolDefinitions(): Tool[] {
+    return TOOL_DEFINITIONS;
   }
 
   /**
    * Router for tool execution with validation, execution, masking, and auditing
    */
-  async callTool(name: string, args: any): Promise<any> {
+  async callTool(name: string, args: Record<string, unknown>): Promise<unknown> {
     const startTime = Date.now();
-    let result: any;
+    let result: unknown;
 
     try {
       switch (name) {
@@ -93,7 +45,7 @@ export class ToolRegistryService {
         case 'run_rag_evaluation': {
           const schema = z.object({ question: z.string(), answer: z.string(), context: z.string() });
           const parsed = schema.parse(args);
-          result = await this.ragEvalService.evaluate(parsed);
+          result = this.ragEvalService.evaluate(parsed);
           break;
         }
 
@@ -108,9 +60,10 @@ export class ToolRegistryService {
         }
 
         case 'log_agent_trace': {
-          const schema = z.object({ step_name: z.string(), input: z.any(), output: z.any() });
+          const schema = z.object({ step_name: z.string(), input: z.unknown(), output: z.unknown() });
           const parsed = schema.parse(args);
-          result = await this.agentTraceService.logTrace(parsed);
+          // type cast to match what agent trace expects or refactor agent trace as well
+          result = this.agentTraceService.logTrace(parsed);
           break;
         }
 
@@ -122,14 +75,14 @@ export class ToolRegistryService {
       const maskedResult = maskSensitiveData(result);
       
       const duration = Date.now() - startTime;
-      await this.auditLogService.logToolCall(name, args, maskedResult, duration);
+      this.auditLogService.logToolCall(name, args, maskedResult, duration);
       
       return maskedResult;
 
     } catch (error) {
       const duration = Date.now() - startTime;
       const errorMessage = error instanceof Error ? error.message : String(error);
-      await this.auditLogService.logToolCall(name, args, { error: errorMessage }, duration);
+      this.auditLogService.logToolCall(name, args, { error: errorMessage }, duration);
       throw error;
     }
   }

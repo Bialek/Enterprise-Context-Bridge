@@ -4,10 +4,10 @@ import { Server } from '@modelcontextprotocol/sdk/server/index.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
 import { 
   CallToolRequestSchema, 
-  ListToolsRequestSchema, 
-  InitializeRequestSchema 
+  ListToolsRequestSchema
 } from '@modelcontextprotocol/sdk/types.js';
 import { ToolRegistryService } from './tools/tool-registry.service';
+import { Logger } from '@nestjs/common';
 
 /**
  * The Enterprise Context Bridge (ECB) MCP Server
@@ -15,11 +15,14 @@ import { ToolRegistryService } from './tools/tool-registry.service';
  * bootstraps a standalone NestJS application and wires it into the 
  * Model Context Protocol (MCP) using the stdio transport.
  */
-async function bootstrap() {
+// eslint-disable-next-line max-lines-per-function
+async function bootstrap(): Promise<void> {
+  const logger = new Logger('Bootstrap');
+
   // Capture all stdout to stderr to prevent corruption of the MCP channel
-  const originalStdoutWrite = process.stdout.write.bind(process.stdout);
-  process.stdout.write = (chunk: any, encoding?: any, callback?: any) => {
-    return process.stderr.write(chunk, encoding, callback);
+  process.stdout.write = (chunk: Uint8Array | string, encoding?: BufferEncoding | ((err?: Error | null) => void), callback?: (err?: Error | null) => void): boolean => {
+    // Overload resolution needs to be simplified due to variadic nature of write
+    return process.stderr.write(chunk, encoding as BufferEncoding, callback as (err?: Error | null) => void);
   };
 
   const app = await NestFactory.createApplicationContext(AppModule, {
@@ -28,6 +31,7 @@ async function bootstrap() {
 
   const toolRegistry = app.get(ToolRegistryService);
 
+  // eslint-disable-next-line @typescript-eslint/no-deprecated
   const server = new Server(
     {
       name: 'enterprise-context-bridge',
@@ -43,8 +47,8 @@ async function bootstrap() {
   /**
    * List available tools
    */
-  server.setRequestHandler(ListToolsRequestSchema, async () => {
-    const tools = await toolRegistry.getToolDefinitions();
+  server.setRequestHandler(ListToolsRequestSchema, () => {
+    const tools = toolRegistry.getToolDefinitions();
     return { tools };
   });
 
@@ -54,7 +58,7 @@ async function bootstrap() {
   server.setRequestHandler(CallToolRequestSchema, async (request) => {
     const { name, arguments: args } = request.params;
     try {
-      const result = await toolRegistry.callTool(name, args);
+      const result = await toolRegistry.callTool(name, args ?? {});
       return {
         content: [
           {
@@ -87,16 +91,16 @@ async function bootstrap() {
   
   await server.connect(transport);
   
-  console.error('Enterprise Context Bridge MCP server running on stdio');
+  logger.warn('Enterprise Context Bridge MCP server running on stdio');
 
   // Handle shutdown
-  process.on('SIGINT', async () => {
-    await app.close();
-    process.exit(0);
+  process.on('SIGINT', () => {
+    app.close().then(() => process.exit(0)).catch(() => process.exit(1));
   });
 }
 
-bootstrap().catch((error) => {
+bootstrap().catch((error: unknown) => {
+  // eslint-disable-next-line no-console
   console.error('Fatal error during bootstrap:', error);
   process.exit(1);
 });
