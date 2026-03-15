@@ -1,0 +1,1822 @@
+{
+  "jira": [
+    {
+      "id": "ECB-101",
+      "summary": "Task 1: Update Cloud Connector documentation and sync with BTP",
+      "status": "In Progress",
+      "priority": "Low",
+      "assignee": "DevOps Engineer",
+      "created_at": "2026-03-14T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Frontend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-102",
+      "summary": "Task 2: Update On-premise documentation and sync with BTP",
+      "status": "In Review",
+      "priority": "Medium",
+      "assignee": "Frontend Dev",
+      "created_at": "2026-03-13T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Backend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-103",
+      "summary": "Task 3: Update Jira documentation and sync with BTP",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Backend Dev",
+      "created_at": "2026-03-12T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Scrum Master",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-104",
+      "summary": "Task 4: Update API documentation and sync with BTP",
+      "status": "Blocked",
+      "priority": "Highest",
+      "assignee": "Scrum Master",
+      "created_at": "2026-03-11T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Product Owner",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-105",
+      "summary": "Task 5: Update Auth documentation and sync with BTP",
+      "status": "To Do",
+      "priority": "Lowest",
+      "assignee": "Product Owner",
+      "created_at": "2026-03-10T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to AI Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-106",
+      "summary": "Task 6: Update OpenSearch documentation and sync with BTP",
+      "status": "In Progress",
+      "priority": "Low",
+      "assignee": "AI Engineer",
+      "created_at": "2026-03-09T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to DevOps Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-107",
+      "summary": "Task 7: Update Hybrid Search documentation and sync with BTP",
+      "status": "In Review",
+      "priority": "Medium",
+      "assignee": "DevOps Engineer",
+      "created_at": "2026-03-08T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Frontend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-108",
+      "summary": "Task 8: Update kNN documentation and sync with BTP",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Frontend Dev",
+      "created_at": "2026-03-07T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Backend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-109",
+      "summary": "Task 9: Update Agents documentation and sync with BTP",
+      "status": "Blocked",
+      "priority": "Highest",
+      "assignee": "Backend Dev",
+      "created_at": "2026-03-06T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Scrum Master",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-110",
+      "summary": "Task 10: Update Resilience documentation and sync with BTP",
+      "status": "To Do",
+      "priority": "Lowest",
+      "assignee": "Scrum Master",
+      "created_at": "2026-03-05T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Product Owner",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-111",
+      "summary": "Task 11: Update MCP documentation and sync with BTP",
+      "status": "In Progress",
+      "priority": "Low",
+      "assignee": "Product Owner",
+      "created_at": "2026-03-04T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to AI Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-112",
+      "summary": "Task 12: Update Kubernetes documentation and sync with BTP",
+      "status": "In Review",
+      "priority": "Medium",
+      "assignee": "AI Engineer",
+      "created_at": "2026-03-03T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to DevOps Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-113",
+      "summary": "Task 13: Update Docker documentation and sync with BTP",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "DevOps Engineer",
+      "created_at": "2026-03-02T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Frontend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-114",
+      "summary": "Task 14: Update AWS documentation and sync with BTP",
+      "status": "Blocked",
+      "priority": "Highest",
+      "assignee": "Frontend Dev",
+      "created_at": "2026-03-01T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Backend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-115",
+      "summary": "Task 15: Update Azure documentation and sync with BTP",
+      "status": "To Do",
+      "priority": "Lowest",
+      "assignee": "Backend Dev",
+      "created_at": "2026-02-28T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Scrum Master",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-116",
+      "summary": "Task 16: Update TypeScript documentation and sync with BTP",
+      "status": "In Progress",
+      "priority": "Low",
+      "assignee": "Scrum Master",
+      "created_at": "2026-02-27T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Product Owner",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-117",
+      "summary": "Task 17: Update NestJS documentation and sync with BTP",
+      "status": "In Review",
+      "priority": "Medium",
+      "assignee": "Product Owner",
+      "created_at": "2026-02-26T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to AI Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-118",
+      "summary": "Task 18: Update SAP BTP documentation and sync with BTP",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "AI Engineer",
+      "created_at": "2026-02-25T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to DevOps Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-119",
+      "summary": "Task 19: Update Cloud Connector documentation and sync with BTP",
+      "status": "Blocked",
+      "priority": "Highest",
+      "assignee": "DevOps Engineer",
+      "created_at": "2026-02-24T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Frontend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-120",
+      "summary": "Task 20: Update On-premise documentation and sync with BTP",
+      "status": "To Do",
+      "priority": "Lowest",
+      "assignee": "Frontend Dev",
+      "created_at": "2026-02-23T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Backend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-121",
+      "summary": "Task 21: Update Jira documentation and sync with BTP",
+      "status": "In Progress",
+      "priority": "Low",
+      "assignee": "Backend Dev",
+      "created_at": "2026-02-22T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Scrum Master",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-122",
+      "summary": "Task 22: Update API documentation and sync with BTP",
+      "status": "In Review",
+      "priority": "Medium",
+      "assignee": "Scrum Master",
+      "created_at": "2026-02-21T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Product Owner",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-123",
+      "summary": "Task 23: Update Auth documentation and sync with BTP",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Product Owner",
+      "created_at": "2026-02-20T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to AI Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-124",
+      "summary": "Task 24: Update OpenSearch documentation and sync with BTP",
+      "status": "Blocked",
+      "priority": "Highest",
+      "assignee": "AI Engineer",
+      "created_at": "2026-02-19T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to DevOps Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-125",
+      "summary": "Task 25: Update Hybrid Search documentation and sync with BTP",
+      "status": "To Do",
+      "priority": "Lowest",
+      "assignee": "DevOps Engineer",
+      "created_at": "2026-02-18T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Frontend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-126",
+      "summary": "Task 26: Update kNN documentation and sync with BTP",
+      "status": "In Progress",
+      "priority": "Low",
+      "assignee": "Frontend Dev",
+      "created_at": "2026-02-17T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Backend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-127",
+      "summary": "Task 27: Update Agents documentation and sync with BTP",
+      "status": "In Review",
+      "priority": "Medium",
+      "assignee": "Backend Dev",
+      "created_at": "2026-02-16T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Scrum Master",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-128",
+      "summary": "Task 28: Update Resilience documentation and sync with BTP",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Scrum Master",
+      "created_at": "2026-02-15T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Product Owner",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-129",
+      "summary": "Task 29: Update MCP documentation and sync with BTP",
+      "status": "Blocked",
+      "priority": "Highest",
+      "assignee": "Product Owner",
+      "created_at": "2026-02-14T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to AI Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-130",
+      "summary": "Task 30: Update Kubernetes documentation and sync with BTP",
+      "status": "To Do",
+      "priority": "Lowest",
+      "assignee": "AI Engineer",
+      "created_at": "2026-02-13T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to DevOps Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-131",
+      "summary": "Task 31: Update Docker documentation and sync with BTP",
+      "status": "In Progress",
+      "priority": "Low",
+      "assignee": "DevOps Engineer",
+      "created_at": "2026-02-12T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Frontend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-132",
+      "summary": "Task 32: Update AWS documentation and sync with BTP",
+      "status": "In Review",
+      "priority": "Medium",
+      "assignee": "Frontend Dev",
+      "created_at": "2026-02-11T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Backend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-133",
+      "summary": "Task 33: Update Azure documentation and sync with BTP",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Backend Dev",
+      "created_at": "2026-02-10T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Scrum Master",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-134",
+      "summary": "Task 34: Update TypeScript documentation and sync with BTP",
+      "status": "Blocked",
+      "priority": "Highest",
+      "assignee": "Scrum Master",
+      "created_at": "2026-02-09T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Product Owner",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-135",
+      "summary": "Task 35: Update NestJS documentation and sync with BTP",
+      "status": "To Do",
+      "priority": "Lowest",
+      "assignee": "Product Owner",
+      "created_at": "2026-02-08T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to AI Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-136",
+      "summary": "Task 36: Update SAP BTP documentation and sync with BTP",
+      "status": "In Progress",
+      "priority": "Low",
+      "assignee": "AI Engineer",
+      "created_at": "2026-02-07T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to DevOps Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-137",
+      "summary": "Task 37: Update Cloud Connector documentation and sync with BTP",
+      "status": "In Review",
+      "priority": "Medium",
+      "assignee": "DevOps Engineer",
+      "created_at": "2026-02-06T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Frontend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-138",
+      "summary": "Task 38: Update On-premise documentation and sync with BTP",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Frontend Dev",
+      "created_at": "2026-02-05T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Backend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-139",
+      "summary": "Task 39: Update Jira documentation and sync with BTP",
+      "status": "Blocked",
+      "priority": "Highest",
+      "assignee": "Backend Dev",
+      "created_at": "2026-02-04T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Scrum Master",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-140",
+      "summary": "Task 40: Update API documentation and sync with BTP",
+      "status": "To Do",
+      "priority": "Lowest",
+      "assignee": "Scrum Master",
+      "created_at": "2026-02-03T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Product Owner",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-141",
+      "summary": "Task 41: Update Auth documentation and sync with BTP",
+      "status": "In Progress",
+      "priority": "Low",
+      "assignee": "Product Owner",
+      "created_at": "2026-02-02T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to AI Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-142",
+      "summary": "Task 42: Update OpenSearch documentation and sync with BTP",
+      "status": "In Review",
+      "priority": "Medium",
+      "assignee": "AI Engineer",
+      "created_at": "2026-02-01T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to DevOps Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-143",
+      "summary": "Task 43: Update Hybrid Search documentation and sync with BTP",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "DevOps Engineer",
+      "created_at": "2026-01-31T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Frontend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-144",
+      "summary": "Task 44: Update kNN documentation and sync with BTP",
+      "status": "Blocked",
+      "priority": "Highest",
+      "assignee": "Frontend Dev",
+      "created_at": "2026-01-30T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Backend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-145",
+      "summary": "Task 45: Update Agents documentation and sync with BTP",
+      "status": "To Do",
+      "priority": "Lowest",
+      "assignee": "Backend Dev",
+      "created_at": "2026-01-29T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Scrum Master",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-146",
+      "summary": "Task 46: Update Resilience documentation and sync with BTP",
+      "status": "In Progress",
+      "priority": "Low",
+      "assignee": "Scrum Master",
+      "created_at": "2026-01-28T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Product Owner",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-147",
+      "summary": "Task 47: Update MCP documentation and sync with BTP",
+      "status": "In Review",
+      "priority": "Medium",
+      "assignee": "Product Owner",
+      "created_at": "2026-01-27T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to AI Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-148",
+      "summary": "Task 48: Update Kubernetes documentation and sync with BTP",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "AI Engineer",
+      "created_at": "2026-01-26T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to DevOps Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-149",
+      "summary": "Task 49: Update Docker documentation and sync with BTP",
+      "status": "Blocked",
+      "priority": "Highest",
+      "assignee": "DevOps Engineer",
+      "created_at": "2026-01-25T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Frontend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-150",
+      "summary": "Task 50: Update AWS documentation and sync with BTP",
+      "status": "To Do",
+      "priority": "Lowest",
+      "assignee": "Frontend Dev",
+      "created_at": "2026-01-24T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Backend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-151",
+      "summary": "Task 51: Update Azure documentation and sync with BTP",
+      "status": "In Progress",
+      "priority": "Low",
+      "assignee": "Backend Dev",
+      "created_at": "2026-01-23T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Scrum Master",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-152",
+      "summary": "Task 52: Update TypeScript documentation and sync with BTP",
+      "status": "In Review",
+      "priority": "Medium",
+      "assignee": "Scrum Master",
+      "created_at": "2026-01-22T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Product Owner",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-153",
+      "summary": "Task 53: Update NestJS documentation and sync with BTP",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Product Owner",
+      "created_at": "2026-01-21T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to AI Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-154",
+      "summary": "Task 54: Update SAP BTP documentation and sync with BTP",
+      "status": "Blocked",
+      "priority": "Highest",
+      "assignee": "AI Engineer",
+      "created_at": "2026-01-20T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to DevOps Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-155",
+      "summary": "Task 55: Update Cloud Connector documentation and sync with BTP",
+      "status": "To Do",
+      "priority": "Lowest",
+      "assignee": "DevOps Engineer",
+      "created_at": "2026-01-19T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Frontend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-156",
+      "summary": "Task 56: Update On-premise documentation and sync with BTP",
+      "status": "In Progress",
+      "priority": "Low",
+      "assignee": "Frontend Dev",
+      "created_at": "2026-01-18T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Backend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-157",
+      "summary": "Task 57: Update Jira documentation and sync with BTP",
+      "status": "In Review",
+      "priority": "Medium",
+      "assignee": "Backend Dev",
+      "created_at": "2026-01-17T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Scrum Master",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-158",
+      "summary": "Task 58: Update API documentation and sync with BTP",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Scrum Master",
+      "created_at": "2026-01-16T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Product Owner",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-159",
+      "summary": "Task 59: Update Auth documentation and sync with BTP",
+      "status": "Blocked",
+      "priority": "Highest",
+      "assignee": "Product Owner",
+      "created_at": "2026-01-15T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to AI Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-160",
+      "summary": "Task 60: Update OpenSearch documentation and sync with BTP",
+      "status": "To Do",
+      "priority": "Lowest",
+      "assignee": "AI Engineer",
+      "created_at": "2026-01-14T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to DevOps Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-161",
+      "summary": "Task 61: Update Hybrid Search documentation and sync with BTP",
+      "status": "In Progress",
+      "priority": "Low",
+      "assignee": "DevOps Engineer",
+      "created_at": "2026-01-13T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Frontend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-162",
+      "summary": "Task 62: Update kNN documentation and sync with BTP",
+      "status": "In Review",
+      "priority": "Medium",
+      "assignee": "Frontend Dev",
+      "created_at": "2026-01-12T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Backend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-163",
+      "summary": "Task 63: Update Agents documentation and sync with BTP",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Backend Dev",
+      "created_at": "2026-01-11T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Scrum Master",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-164",
+      "summary": "Task 64: Update Resilience documentation and sync with BTP",
+      "status": "Blocked",
+      "priority": "Highest",
+      "assignee": "Scrum Master",
+      "created_at": "2026-01-10T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Product Owner",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-165",
+      "summary": "Task 65: Update MCP documentation and sync with BTP",
+      "status": "To Do",
+      "priority": "Lowest",
+      "assignee": "Product Owner",
+      "created_at": "2026-01-09T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to AI Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-166",
+      "summary": "Task 66: Update Kubernetes documentation and sync with BTP",
+      "status": "In Progress",
+      "priority": "Low",
+      "assignee": "AI Engineer",
+      "created_at": "2026-01-08T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to DevOps Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-167",
+      "summary": "Task 67: Update Docker documentation and sync with BTP",
+      "status": "In Review",
+      "priority": "Medium",
+      "assignee": "DevOps Engineer",
+      "created_at": "2026-01-07T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Frontend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-168",
+      "summary": "Task 68: Update AWS documentation and sync with BTP",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Frontend Dev",
+      "created_at": "2026-01-06T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Backend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-169",
+      "summary": "Task 69: Update Azure documentation and sync with BTP",
+      "status": "Blocked",
+      "priority": "Highest",
+      "assignee": "Backend Dev",
+      "created_at": "2026-01-05T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Scrum Master",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-170",
+      "summary": "Task 70: Update TypeScript documentation and sync with BTP",
+      "status": "To Do",
+      "priority": "Lowest",
+      "assignee": "Scrum Master",
+      "created_at": "2026-01-04T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Product Owner",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-171",
+      "summary": "Task 71: Update NestJS documentation and sync with BTP",
+      "status": "In Progress",
+      "priority": "Low",
+      "assignee": "Product Owner",
+      "created_at": "2026-01-03T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to AI Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-172",
+      "summary": "Task 72: Update SAP BTP documentation and sync with BTP",
+      "status": "In Review",
+      "priority": "Medium",
+      "assignee": "AI Engineer",
+      "created_at": "2026-01-02T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to DevOps Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-173",
+      "summary": "Task 73: Update Cloud Connector documentation and sync with BTP",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "DevOps Engineer",
+      "created_at": "2026-01-01T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Frontend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-174",
+      "summary": "Task 74: Update On-premise documentation and sync with BTP",
+      "status": "Blocked",
+      "priority": "Highest",
+      "assignee": "Frontend Dev",
+      "created_at": "2025-12-31T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Backend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-175",
+      "summary": "Task 75: Update Jira documentation and sync with BTP",
+      "status": "To Do",
+      "priority": "Lowest",
+      "assignee": "Backend Dev",
+      "created_at": "2025-12-30T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Scrum Master",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-176",
+      "summary": "Task 76: Update API documentation and sync with BTP",
+      "status": "In Progress",
+      "priority": "Low",
+      "assignee": "Scrum Master",
+      "created_at": "2025-12-29T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Product Owner",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-177",
+      "summary": "Task 77: Update Auth documentation and sync with BTP",
+      "status": "In Review",
+      "priority": "Medium",
+      "assignee": "Product Owner",
+      "created_at": "2025-12-28T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to AI Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-178",
+      "summary": "Task 78: Update OpenSearch documentation and sync with BTP",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "AI Engineer",
+      "created_at": "2025-12-27T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to DevOps Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-179",
+      "summary": "Task 79: Update Hybrid Search documentation and sync with BTP",
+      "status": "Blocked",
+      "priority": "Highest",
+      "assignee": "DevOps Engineer",
+      "created_at": "2025-12-26T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Frontend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-180",
+      "summary": "Task 80: Update kNN documentation and sync with BTP",
+      "status": "To Do",
+      "priority": "Lowest",
+      "assignee": "Frontend Dev",
+      "created_at": "2025-12-25T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Backend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-181",
+      "summary": "Task 81: Update Agents documentation and sync with BTP",
+      "status": "In Progress",
+      "priority": "Low",
+      "assignee": "Backend Dev",
+      "created_at": "2025-12-24T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Scrum Master",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-182",
+      "summary": "Task 82: Update Resilience documentation and sync with BTP",
+      "status": "In Review",
+      "priority": "Medium",
+      "assignee": "Scrum Master",
+      "created_at": "2025-12-23T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Product Owner",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-183",
+      "summary": "Task 83: Update MCP documentation and sync with BTP",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Product Owner",
+      "created_at": "2025-12-22T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to AI Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-184",
+      "summary": "Task 84: Update Kubernetes documentation and sync with BTP",
+      "status": "Blocked",
+      "priority": "Highest",
+      "assignee": "AI Engineer",
+      "created_at": "2025-12-21T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to DevOps Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-185",
+      "summary": "Task 85: Update Docker documentation and sync with BTP",
+      "status": "To Do",
+      "priority": "Lowest",
+      "assignee": "DevOps Engineer",
+      "created_at": "2025-12-20T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Frontend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-186",
+      "summary": "Task 86: Update AWS documentation and sync with BTP",
+      "status": "In Progress",
+      "priority": "Low",
+      "assignee": "Frontend Dev",
+      "created_at": "2025-12-19T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Backend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-187",
+      "summary": "Task 87: Update Azure documentation and sync with BTP",
+      "status": "In Review",
+      "priority": "Medium",
+      "assignee": "Backend Dev",
+      "created_at": "2025-12-18T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Scrum Master",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-188",
+      "summary": "Task 88: Update TypeScript documentation and sync with BTP",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Scrum Master",
+      "created_at": "2025-12-17T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Product Owner",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-189",
+      "summary": "Task 89: Update NestJS documentation and sync with BTP",
+      "status": "Blocked",
+      "priority": "Highest",
+      "assignee": "Product Owner",
+      "created_at": "2025-12-16T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to AI Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-190",
+      "summary": "Task 90: Update SAP BTP documentation and sync with BTP",
+      "status": "To Do",
+      "priority": "Lowest",
+      "assignee": "AI Engineer",
+      "created_at": "2025-12-15T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to DevOps Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-191",
+      "summary": "Task 91: Update Cloud Connector documentation and sync with BTP",
+      "status": "In Progress",
+      "priority": "Low",
+      "assignee": "DevOps Engineer",
+      "created_at": "2025-12-14T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Frontend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-192",
+      "summary": "Task 92: Update On-premise documentation and sync with BTP",
+      "status": "In Review",
+      "priority": "Medium",
+      "assignee": "Frontend Dev",
+      "created_at": "2025-12-13T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Backend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-193",
+      "summary": "Task 93: Update Jira documentation and sync with BTP",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Backend Dev",
+      "created_at": "2025-12-12T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Scrum Master",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-194",
+      "summary": "Task 94: Update API documentation and sync with BTP",
+      "status": "Blocked",
+      "priority": "Highest",
+      "assignee": "Scrum Master",
+      "created_at": "2025-12-11T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Product Owner",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-195",
+      "summary": "Task 95: Update Auth documentation and sync with BTP",
+      "status": "To Do",
+      "priority": "Lowest",
+      "assignee": "Product Owner",
+      "created_at": "2025-12-10T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to AI Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-196",
+      "summary": "Task 96: Update OpenSearch documentation and sync with BTP",
+      "status": "In Progress",
+      "priority": "Low",
+      "assignee": "AI Engineer",
+      "created_at": "2025-12-09T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to DevOps Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-197",
+      "summary": "Task 97: Update Hybrid Search documentation and sync with BTP",
+      "status": "In Review",
+      "priority": "Medium",
+      "assignee": "DevOps Engineer",
+      "created_at": "2025-12-08T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Frontend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-198",
+      "summary": "Task 98: Update kNN documentation and sync with BTP",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Frontend Dev",
+      "created_at": "2025-12-07T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Backend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-199",
+      "summary": "Task 99: Update Agents documentation and sync with BTP",
+      "status": "Blocked",
+      "priority": "Highest",
+      "assignee": "Backend Dev",
+      "created_at": "2025-12-06T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Scrum Master",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-200",
+      "summary": "Task 100: Update Resilience documentation and sync with BTP",
+      "status": "To Do",
+      "priority": "Lowest",
+      "assignee": "Scrum Master",
+      "created_at": "2025-12-05T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Product Owner",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-201",
+      "summary": "Task 101: Update MCP documentation and sync with BTP",
+      "status": "In Progress",
+      "priority": "Low",
+      "assignee": "Product Owner",
+      "created_at": "2025-12-04T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to AI Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-202",
+      "summary": "Task 102: Update Kubernetes documentation and sync with BTP",
+      "status": "In Review",
+      "priority": "Medium",
+      "assignee": "AI Engineer",
+      "created_at": "2025-12-03T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to DevOps Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-203",
+      "summary": "Task 103: Update Docker documentation and sync with BTP",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "DevOps Engineer",
+      "created_at": "2025-12-02T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Frontend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-204",
+      "summary": "Task 104: Update AWS documentation and sync with BTP",
+      "status": "Blocked",
+      "priority": "Highest",
+      "assignee": "Frontend Dev",
+      "created_at": "2025-12-01T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Backend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-205",
+      "summary": "Task 105: Update Azure documentation and sync with BTP",
+      "status": "To Do",
+      "priority": "Lowest",
+      "assignee": "Backend Dev",
+      "created_at": "2025-11-30T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Scrum Master",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-206",
+      "summary": "Task 106: Update TypeScript documentation and sync with BTP",
+      "status": "In Progress",
+      "priority": "Low",
+      "assignee": "Scrum Master",
+      "created_at": "2025-11-29T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Product Owner",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-207",
+      "summary": "Task 107: Update NestJS documentation and sync with BTP",
+      "status": "In Review",
+      "priority": "Medium",
+      "assignee": "Product Owner",
+      "created_at": "2025-11-28T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to AI Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-208",
+      "summary": "Task 108: Update SAP BTP documentation and sync with BTP",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "AI Engineer",
+      "created_at": "2025-11-27T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to DevOps Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-209",
+      "summary": "Task 109: Update Cloud Connector documentation and sync with BTP",
+      "status": "Blocked",
+      "priority": "Highest",
+      "assignee": "DevOps Engineer",
+      "created_at": "2025-11-26T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Frontend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-210",
+      "summary": "Task 110: Update On-premise documentation and sync with BTP",
+      "status": "To Do",
+      "priority": "Lowest",
+      "assignee": "Frontend Dev",
+      "created_at": "2025-11-25T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Backend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-211",
+      "summary": "Task 111: Update Jira documentation and sync with BTP",
+      "status": "In Progress",
+      "priority": "Low",
+      "assignee": "Backend Dev",
+      "created_at": "2025-11-24T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Scrum Master",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-212",
+      "summary": "Task 112: Update API documentation and sync with BTP",
+      "status": "In Review",
+      "priority": "Medium",
+      "assignee": "Scrum Master",
+      "created_at": "2025-11-23T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Product Owner",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-213",
+      "summary": "Task 113: Update Auth documentation and sync with BTP",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Product Owner",
+      "created_at": "2025-11-22T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to AI Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-214",
+      "summary": "Task 114: Update OpenSearch documentation and sync with BTP",
+      "status": "Blocked",
+      "priority": "Highest",
+      "assignee": "AI Engineer",
+      "created_at": "2025-11-21T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to DevOps Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-215",
+      "summary": "Task 115: Update Hybrid Search documentation and sync with BTP",
+      "status": "To Do",
+      "priority": "Lowest",
+      "assignee": "DevOps Engineer",
+      "created_at": "2025-11-20T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Frontend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-216",
+      "summary": "Task 116: Update kNN documentation and sync with BTP",
+      "status": "In Progress",
+      "priority": "Low",
+      "assignee": "Frontend Dev",
+      "created_at": "2025-11-19T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Backend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-217",
+      "summary": "Task 117: Update Agents documentation and sync with BTP",
+      "status": "In Review",
+      "priority": "Medium",
+      "assignee": "Backend Dev",
+      "created_at": "2025-11-18T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Scrum Master",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-218",
+      "summary": "Task 118: Update Resilience documentation and sync with BTP",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Scrum Master",
+      "created_at": "2025-11-17T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Product Owner",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-219",
+      "summary": "Task 119: Update MCP documentation and sync with BTP",
+      "status": "Blocked",
+      "priority": "Highest",
+      "assignee": "Product Owner",
+      "created_at": "2025-11-16T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to AI Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-220",
+      "summary": "Task 120: Update Kubernetes documentation and sync with BTP",
+      "status": "To Do",
+      "priority": "Lowest",
+      "assignee": "AI Engineer",
+      "created_at": "2025-11-15T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to DevOps Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-221",
+      "summary": "Task 121: Update Docker documentation and sync with BTP",
+      "status": "In Progress",
+      "priority": "Low",
+      "assignee": "DevOps Engineer",
+      "created_at": "2025-11-14T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Frontend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-222",
+      "summary": "Task 122: Update AWS documentation and sync with BTP",
+      "status": "In Review",
+      "priority": "Medium",
+      "assignee": "Frontend Dev",
+      "created_at": "2025-11-13T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Backend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-223",
+      "summary": "Task 123: Update Azure documentation and sync with BTP",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Backend Dev",
+      "created_at": "2025-11-12T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Scrum Master",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-224",
+      "summary": "Task 124: Update TypeScript documentation and sync with BTP",
+      "status": "Blocked",
+      "priority": "Highest",
+      "assignee": "Scrum Master",
+      "created_at": "2025-11-11T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Product Owner",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-225",
+      "summary": "Task 125: Update NestJS documentation and sync with BTP",
+      "status": "To Do",
+      "priority": "Lowest",
+      "assignee": "Product Owner",
+      "created_at": "2025-11-10T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to AI Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-226",
+      "summary": "Task 126: Update SAP BTP documentation and sync with BTP",
+      "status": "In Progress",
+      "priority": "Low",
+      "assignee": "AI Engineer",
+      "created_at": "2025-11-09T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to DevOps Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-227",
+      "summary": "Task 127: Update Cloud Connector documentation and sync with BTP",
+      "status": "In Review",
+      "priority": "Medium",
+      "assignee": "DevOps Engineer",
+      "created_at": "2025-11-08T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Frontend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-228",
+      "summary": "Task 128: Update On-premise documentation and sync with BTP",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Frontend Dev",
+      "created_at": "2025-11-07T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Backend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-229",
+      "summary": "Task 129: Update Jira documentation and sync with BTP",
+      "status": "Blocked",
+      "priority": "Highest",
+      "assignee": "Backend Dev",
+      "created_at": "2025-11-06T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Scrum Master",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-230",
+      "summary": "Task 130: Update API documentation and sync with BTP",
+      "status": "To Do",
+      "priority": "Lowest",
+      "assignee": "Scrum Master",
+      "created_at": "2025-11-05T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Product Owner",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-231",
+      "summary": "Task 131: Update Auth documentation and sync with BTP",
+      "status": "In Progress",
+      "priority": "Low",
+      "assignee": "Product Owner",
+      "created_at": "2025-11-04T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to AI Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-232",
+      "summary": "Task 132: Update OpenSearch documentation and sync with BTP",
+      "status": "In Review",
+      "priority": "Medium",
+      "assignee": "AI Engineer",
+      "created_at": "2025-11-03T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to DevOps Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-233",
+      "summary": "Task 133: Update Hybrid Search documentation and sync with BTP",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "DevOps Engineer",
+      "created_at": "2025-11-02T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Frontend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-234",
+      "summary": "Task 134: Update kNN documentation and sync with BTP",
+      "status": "Blocked",
+      "priority": "Highest",
+      "assignee": "Frontend Dev",
+      "created_at": "2025-11-01T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Backend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-235",
+      "summary": "Task 135: Update Agents documentation and sync with BTP",
+      "status": "To Do",
+      "priority": "Lowest",
+      "assignee": "Backend Dev",
+      "created_at": "2025-10-31T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Scrum Master",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-236",
+      "summary": "Task 136: Update Resilience documentation and sync with BTP",
+      "status": "In Progress",
+      "priority": "Low",
+      "assignee": "Scrum Master",
+      "created_at": "2025-10-30T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Product Owner",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-237",
+      "summary": "Task 137: Update MCP documentation and sync with BTP",
+      "status": "In Review",
+      "priority": "Medium",
+      "assignee": "Product Owner",
+      "created_at": "2025-10-29T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to AI Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-238",
+      "summary": "Task 138: Update Kubernetes documentation and sync with BTP",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "AI Engineer",
+      "created_at": "2025-10-28T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to DevOps Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-239",
+      "summary": "Task 139: Update Docker documentation and sync with BTP",
+      "status": "Blocked",
+      "priority": "Highest",
+      "assignee": "DevOps Engineer",
+      "created_at": "2025-10-27T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Frontend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-240",
+      "summary": "Task 140: Update AWS documentation and sync with BTP",
+      "status": "To Do",
+      "priority": "Lowest",
+      "assignee": "Frontend Dev",
+      "created_at": "2025-10-26T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Backend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-241",
+      "summary": "Task 141: Update Azure documentation and sync with BTP",
+      "status": "In Progress",
+      "priority": "Low",
+      "assignee": "Backend Dev",
+      "created_at": "2025-10-25T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Scrum Master",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-242",
+      "summary": "Task 142: Update TypeScript documentation and sync with BTP",
+      "status": "In Review",
+      "priority": "Medium",
+      "assignee": "Scrum Master",
+      "created_at": "2025-10-24T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Product Owner",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-243",
+      "summary": "Task 143: Update NestJS documentation and sync with BTP",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Product Owner",
+      "created_at": "2025-10-23T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to AI Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-244",
+      "summary": "Task 144: Update SAP BTP documentation and sync with BTP",
+      "status": "Blocked",
+      "priority": "Highest",
+      "assignee": "AI Engineer",
+      "created_at": "2025-10-22T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to DevOps Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-245",
+      "summary": "Task 145: Update Cloud Connector documentation and sync with BTP",
+      "status": "To Do",
+      "priority": "Lowest",
+      "assignee": "DevOps Engineer",
+      "created_at": "2025-10-21T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Frontend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-246",
+      "summary": "Task 146: Update On-premise documentation and sync with BTP",
+      "status": "In Progress",
+      "priority": "Low",
+      "assignee": "Frontend Dev",
+      "created_at": "2025-10-20T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Backend Dev",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-247",
+      "summary": "Task 147: Update Jira documentation and sync with BTP",
+      "status": "In Review",
+      "priority": "Medium",
+      "assignee": "Backend Dev",
+      "created_at": "2025-10-19T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Scrum Master",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-248",
+      "summary": "Task 148: Update API documentation and sync with BTP",
+      "status": "Done",
+      "priority": "High",
+      "assignee": "Scrum Master",
+      "created_at": "2025-10-18T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to Product Owner",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-249",
+      "summary": "Task 149: Update Auth documentation and sync with BTP",
+      "status": "Blocked",
+      "priority": "Highest",
+      "assignee": "Product Owner",
+      "created_at": "2025-10-17T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to AI Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    },
+    {
+      "id": "ECB-250",
+      "summary": "Task 150: Update OpenSearch documentation and sync with BTP",
+      "status": "To Do",
+      "priority": "Lowest",
+      "assignee": "AI Engineer",
+      "created_at": "2025-10-16T10:30:59.268Z",
+      "comments": [
+        "Looks good. Assigned to DevOps Engineer",
+        "Waiting on infrastructure provisioning."
+      ]
+    }
+  ],
+  "sap": {
+    "btp": {
+      "subaccount_id": "8a7b6c5d-4e3f-2g1h-0i9j",
+      "region": "us10",
+      "status": "Active",
+      "cloud_connector": "Connected",
+      "last_sync": "2026-03-15T10:30:59.268Z"
+    },
+    "hana": {
+      "instance_id": "hana-db-77",
+      "memory_usage": "64%",
+      "cpu_load": "18%",
+      "connections": 246,
+      "health": "Green",
+      "ip_address": "10.0.0.45",
+      "admin_api_key": "sap-secret-key-001"
+    }
+  }
+}

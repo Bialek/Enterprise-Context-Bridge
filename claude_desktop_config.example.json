@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "enterprise-bridge": {
+      "command": "node",
+      "args": ["C:/Users/Desktop/Desktop/Enterprise-Context-Bridge/dist/main.js"],
+      "env": {
+        "OPENSEARCH_URL": "http://localhost:9200",
+        "OPENSEARCH_INDEX": "enterprise_docs",
+        "EVAL_API_KEY": "dev-key",
+        "LOG_DIR": "C:/Users/Desktop/Desktop/Enterprise-Context-Bridge/logs"
+      }
+    }
+  }
+}

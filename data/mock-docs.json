@@ -1,0 +1,1562 @@
+[
+  {
+    "id": "doc_001",
+    "title": "Technical Guide 1: Sub-system Cloud Connector integration",
+    "text": "This document describes the best practices for handling Cloud Connector and API in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Cloud Connector, consider memory limits and API rate limits. For API, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/1",
+    "metadata": {
+      "category": "Developer Tools",
+      "tags": [
+        "Cloud Connector",
+        "API"
+      ]
+    }
+  },
+  {
+    "id": "doc_002",
+    "title": "Technical Guide 2: Sub-system On-premise integration",
+    "text": "This document describes the best practices for handling On-premise and Auth in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling On-premise, consider memory limits and API rate limits. For Auth, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/2",
+    "metadata": {
+      "category": "Search Engineering",
+      "tags": [
+        "On-premise",
+        "Auth"
+      ]
+    }
+  },
+  {
+    "id": "doc_003",
+    "title": "Technical Guide 3: Sub-system Jira integration",
+    "text": "This document describes the best practices for handling Jira and OpenSearch in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Jira, consider memory limits and API rate limits. For OpenSearch, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/3",
+    "metadata": {
+      "category": "AI Orchestration",
+      "tags": [
+        "Jira",
+        "OpenSearch"
+      ]
+    }
+  },
+  {
+    "id": "doc_004",
+    "title": "Technical Guide 4: Sub-system API integration",
+    "text": "This document describes the best practices for handling API and Hybrid Search in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling API, consider memory limits and API rate limits. For Hybrid Search, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/4",
+    "metadata": {
+      "category": "Security",
+      "tags": [
+        "API",
+        "Hybrid Search"
+      ]
+    }
+  },
+  {
+    "id": "doc_005",
+    "title": "Technical Guide 5: Sub-system Auth integration",
+    "text": "This document describes the best practices for handling Auth and kNN in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Auth, consider memory limits and API rate limits. For kNN, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/5",
+    "metadata": {
+      "category": "Database",
+      "tags": [
+        "Auth",
+        "kNN"
+      ]
+    }
+  },
+  {
+    "id": "doc_006",
+    "title": "Technical Guide 6: Sub-system OpenSearch integration",
+    "text": "This document describes the best practices for handling OpenSearch and Agents in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling OpenSearch, consider memory limits and API rate limits. For Agents, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/6",
+    "metadata": {
+      "category": "Infrastructure",
+      "tags": [
+        "OpenSearch",
+        "Agents"
+      ]
+    }
+  },
+  {
+    "id": "doc_007",
+    "title": "Technical Guide 7: Sub-system Hybrid Search integration",
+    "text": "This document describes the best practices for handling Hybrid Search and Resilience in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Hybrid Search, consider memory limits and API rate limits. For Resilience, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/7",
+    "metadata": {
+      "category": "Developer Tools",
+      "tags": [
+        "Hybrid Search",
+        "Resilience"
+      ]
+    }
+  },
+  {
+    "id": "doc_008",
+    "title": "Technical Guide 8: Sub-system kNN integration",
+    "text": "This document describes the best practices for handling kNN and MCP in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling kNN, consider memory limits and API rate limits. For MCP, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/8",
+    "metadata": {
+      "category": "Search Engineering",
+      "tags": [
+        "kNN",
+        "MCP"
+      ]
+    }
+  },
+  {
+    "id": "doc_009",
+    "title": "Technical Guide 9: Sub-system Agents integration",
+    "text": "This document describes the best practices for handling Agents and Kubernetes in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Agents, consider memory limits and API rate limits. For Kubernetes, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/9",
+    "metadata": {
+      "category": "AI Orchestration",
+      "tags": [
+        "Agents",
+        "Kubernetes"
+      ]
+    }
+  },
+  {
+    "id": "doc_010",
+    "title": "Technical Guide 10: Sub-system Resilience integration",
+    "text": "This document describes the best practices for handling Resilience and Docker in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Resilience, consider memory limits and API rate limits. For Docker, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/10",
+    "metadata": {
+      "category": "Security",
+      "tags": [
+        "Resilience",
+        "Docker"
+      ]
+    }
+  },
+  {
+    "id": "doc_011",
+    "title": "Technical Guide 11: Sub-system MCP integration",
+    "text": "This document describes the best practices for handling MCP and AWS in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling MCP, consider memory limits and API rate limits. For AWS, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/11",
+    "metadata": {
+      "category": "Database",
+      "tags": [
+        "MCP",
+        "AWS"
+      ]
+    }
+  },
+  {
+    "id": "doc_012",
+    "title": "Technical Guide 12: Sub-system Kubernetes integration",
+    "text": "This document describes the best practices for handling Kubernetes and Azure in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Kubernetes, consider memory limits and API rate limits. For Azure, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/12",
+    "metadata": {
+      "category": "Infrastructure",
+      "tags": [
+        "Kubernetes",
+        "Azure"
+      ]
+    }
+  },
+  {
+    "id": "doc_013",
+    "title": "Technical Guide 13: Sub-system Docker integration",
+    "text": "This document describes the best practices for handling Docker and TypeScript in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Docker, consider memory limits and API rate limits. For TypeScript, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/13",
+    "metadata": {
+      "category": "Developer Tools",
+      "tags": [
+        "Docker",
+        "TypeScript"
+      ]
+    }
+  },
+  {
+    "id": "doc_014",
+    "title": "Technical Guide 14: Sub-system AWS integration",
+    "text": "This document describes the best practices for handling AWS and NestJS in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling AWS, consider memory limits and API rate limits. For NestJS, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/14",
+    "metadata": {
+      "category": "Search Engineering",
+      "tags": [
+        "AWS",
+        "NestJS"
+      ]
+    }
+  },
+  {
+    "id": "doc_015",
+    "title": "Technical Guide 15: Sub-system Azure integration",
+    "text": "This document describes the best practices for handling Azure and SAP BTP in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Azure, consider memory limits and API rate limits. For SAP BTP, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/15",
+    "metadata": {
+      "category": "AI Orchestration",
+      "tags": [
+        "Azure",
+        "SAP BTP"
+      ]
+    }
+  },
+  {
+    "id": "doc_016",
+    "title": "Technical Guide 16: Sub-system TypeScript integration",
+    "text": "This document describes the best practices for handling TypeScript and Cloud Connector in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling TypeScript, consider memory limits and API rate limits. For Cloud Connector, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/16",
+    "metadata": {
+      "category": "Security",
+      "tags": [
+        "TypeScript",
+        "Cloud Connector"
+      ]
+    }
+  },
+  {
+    "id": "doc_017",
+    "title": "Technical Guide 17: Sub-system NestJS integration",
+    "text": "This document describes the best practices for handling NestJS and On-premise in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling NestJS, consider memory limits and API rate limits. For On-premise, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/17",
+    "metadata": {
+      "category": "Database",
+      "tags": [
+        "NestJS",
+        "On-premise"
+      ]
+    }
+  },
+  {
+    "id": "doc_018",
+    "title": "Technical Guide 18: Sub-system SAP BTP integration",
+    "text": "This document describes the best practices for handling SAP BTP and Jira in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling SAP BTP, consider memory limits and API rate limits. For Jira, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/18",
+    "metadata": {
+      "category": "Infrastructure",
+      "tags": [
+        "SAP BTP",
+        "Jira"
+      ]
+    }
+  },
+  {
+    "id": "doc_019",
+    "title": "Technical Guide 19: Sub-system Cloud Connector integration",
+    "text": "This document describes the best practices for handling Cloud Connector and API in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Cloud Connector, consider memory limits and API rate limits. For API, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/19",
+    "metadata": {
+      "category": "Developer Tools",
+      "tags": [
+        "Cloud Connector",
+        "API"
+      ]
+    }
+  },
+  {
+    "id": "doc_020",
+    "title": "Technical Guide 20: Sub-system On-premise integration",
+    "text": "This document describes the best practices for handling On-premise and Auth in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling On-premise, consider memory limits and API rate limits. For Auth, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/20",
+    "metadata": {
+      "category": "Search Engineering",
+      "tags": [
+        "On-premise",
+        "Auth"
+      ]
+    }
+  },
+  {
+    "id": "doc_021",
+    "title": "Technical Guide 21: Sub-system Jira integration",
+    "text": "This document describes the best practices for handling Jira and OpenSearch in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Jira, consider memory limits and API rate limits. For OpenSearch, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/21",
+    "metadata": {
+      "category": "AI Orchestration",
+      "tags": [
+        "Jira",
+        "OpenSearch"
+      ]
+    }
+  },
+  {
+    "id": "doc_022",
+    "title": "Technical Guide 22: Sub-system API integration",
+    "text": "This document describes the best practices for handling API and Hybrid Search in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling API, consider memory limits and API rate limits. For Hybrid Search, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/22",
+    "metadata": {
+      "category": "Security",
+      "tags": [
+        "API",
+        "Hybrid Search"
+      ]
+    }
+  },
+  {
+    "id": "doc_023",
+    "title": "Technical Guide 23: Sub-system Auth integration",
+    "text": "This document describes the best practices for handling Auth and kNN in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Auth, consider memory limits and API rate limits. For kNN, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/23",
+    "metadata": {
+      "category": "Database",
+      "tags": [
+        "Auth",
+        "kNN"
+      ]
+    }
+  },
+  {
+    "id": "doc_024",
+    "title": "Technical Guide 24: Sub-system OpenSearch integration",
+    "text": "This document describes the best practices for handling OpenSearch and Agents in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling OpenSearch, consider memory limits and API rate limits. For Agents, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/24",
+    "metadata": {
+      "category": "Infrastructure",
+      "tags": [
+        "OpenSearch",
+        "Agents"
+      ]
+    }
+  },
+  {
+    "id": "doc_025",
+    "title": "Technical Guide 25: Sub-system Hybrid Search integration",
+    "text": "This document describes the best practices for handling Hybrid Search and Resilience in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Hybrid Search, consider memory limits and API rate limits. For Resilience, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/25",
+    "metadata": {
+      "category": "Developer Tools",
+      "tags": [
+        "Hybrid Search",
+        "Resilience"
+      ]
+    }
+  },
+  {
+    "id": "doc_026",
+    "title": "Technical Guide 26: Sub-system kNN integration",
+    "text": "This document describes the best practices for handling kNN and MCP in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling kNN, consider memory limits and API rate limits. For MCP, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/26",
+    "metadata": {
+      "category": "Search Engineering",
+      "tags": [
+        "kNN",
+        "MCP"
+      ]
+    }
+  },
+  {
+    "id": "doc_027",
+    "title": "Technical Guide 27: Sub-system Agents integration",
+    "text": "This document describes the best practices for handling Agents and Kubernetes in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Agents, consider memory limits and API rate limits. For Kubernetes, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/27",
+    "metadata": {
+      "category": "AI Orchestration",
+      "tags": [
+        "Agents",
+        "Kubernetes"
+      ]
+    }
+  },
+  {
+    "id": "doc_028",
+    "title": "Technical Guide 28: Sub-system Resilience integration",
+    "text": "This document describes the best practices for handling Resilience and Docker in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Resilience, consider memory limits and API rate limits. For Docker, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/28",
+    "metadata": {
+      "category": "Security",
+      "tags": [
+        "Resilience",
+        "Docker"
+      ]
+    }
+  },
+  {
+    "id": "doc_029",
+    "title": "Technical Guide 29: Sub-system MCP integration",
+    "text": "This document describes the best practices for handling MCP and AWS in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling MCP, consider memory limits and API rate limits. For AWS, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/29",
+    "metadata": {
+      "category": "Database",
+      "tags": [
+        "MCP",
+        "AWS"
+      ]
+    }
+  },
+  {
+    "id": "doc_030",
+    "title": "Technical Guide 30: Sub-system Kubernetes integration",
+    "text": "This document describes the best practices for handling Kubernetes and Azure in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Kubernetes, consider memory limits and API rate limits. For Azure, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/30",
+    "metadata": {
+      "category": "Infrastructure",
+      "tags": [
+        "Kubernetes",
+        "Azure"
+      ]
+    }
+  },
+  {
+    "id": "doc_031",
+    "title": "Technical Guide 31: Sub-system Docker integration",
+    "text": "This document describes the best practices for handling Docker and TypeScript in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Docker, consider memory limits and API rate limits. For TypeScript, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/31",
+    "metadata": {
+      "category": "Developer Tools",
+      "tags": [
+        "Docker",
+        "TypeScript"
+      ]
+    }
+  },
+  {
+    "id": "doc_032",
+    "title": "Technical Guide 32: Sub-system AWS integration",
+    "text": "This document describes the best practices for handling AWS and NestJS in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling AWS, consider memory limits and API rate limits. For NestJS, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/32",
+    "metadata": {
+      "category": "Search Engineering",
+      "tags": [
+        "AWS",
+        "NestJS"
+      ]
+    }
+  },
+  {
+    "id": "doc_033",
+    "title": "Technical Guide 33: Sub-system Azure integration",
+    "text": "This document describes the best practices for handling Azure and SAP BTP in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Azure, consider memory limits and API rate limits. For SAP BTP, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/33",
+    "metadata": {
+      "category": "AI Orchestration",
+      "tags": [
+        "Azure",
+        "SAP BTP"
+      ]
+    }
+  },
+  {
+    "id": "doc_034",
+    "title": "Technical Guide 34: Sub-system TypeScript integration",
+    "text": "This document describes the best practices for handling TypeScript and Cloud Connector in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling TypeScript, consider memory limits and API rate limits. For Cloud Connector, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/34",
+    "metadata": {
+      "category": "Security",
+      "tags": [
+        "TypeScript",
+        "Cloud Connector"
+      ]
+    }
+  },
+  {
+    "id": "doc_035",
+    "title": "Technical Guide 35: Sub-system NestJS integration",
+    "text": "This document describes the best practices for handling NestJS and On-premise in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling NestJS, consider memory limits and API rate limits. For On-premise, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/35",
+    "metadata": {
+      "category": "Database",
+      "tags": [
+        "NestJS",
+        "On-premise"
+      ]
+    }
+  },
+  {
+    "id": "doc_036",
+    "title": "Technical Guide 36: Sub-system SAP BTP integration",
+    "text": "This document describes the best practices for handling SAP BTP and Jira in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling SAP BTP, consider memory limits and API rate limits. For Jira, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/36",
+    "metadata": {
+      "category": "Infrastructure",
+      "tags": [
+        "SAP BTP",
+        "Jira"
+      ]
+    }
+  },
+  {
+    "id": "doc_037",
+    "title": "Technical Guide 37: Sub-system Cloud Connector integration",
+    "text": "This document describes the best practices for handling Cloud Connector and API in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Cloud Connector, consider memory limits and API rate limits. For API, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/37",
+    "metadata": {
+      "category": "Developer Tools",
+      "tags": [
+        "Cloud Connector",
+        "API"
+      ]
+    }
+  },
+  {
+    "id": "doc_038",
+    "title": "Technical Guide 38: Sub-system On-premise integration",
+    "text": "This document describes the best practices for handling On-premise and Auth in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling On-premise, consider memory limits and API rate limits. For Auth, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/38",
+    "metadata": {
+      "category": "Search Engineering",
+      "tags": [
+        "On-premise",
+        "Auth"
+      ]
+    }
+  },
+  {
+    "id": "doc_039",
+    "title": "Technical Guide 39: Sub-system Jira integration",
+    "text": "This document describes the best practices for handling Jira and OpenSearch in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Jira, consider memory limits and API rate limits. For OpenSearch, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/39",
+    "metadata": {
+      "category": "AI Orchestration",
+      "tags": [
+        "Jira",
+        "OpenSearch"
+      ]
+    }
+  },
+  {
+    "id": "doc_040",
+    "title": "Technical Guide 40: Sub-system API integration",
+    "text": "This document describes the best practices for handling API and Hybrid Search in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling API, consider memory limits and API rate limits. For Hybrid Search, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/40",
+    "metadata": {
+      "category": "Security",
+      "tags": [
+        "API",
+        "Hybrid Search"
+      ]
+    }
+  },
+  {
+    "id": "doc_041",
+    "title": "Technical Guide 41: Sub-system Auth integration",
+    "text": "This document describes the best practices for handling Auth and kNN in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Auth, consider memory limits and API rate limits. For kNN, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/41",
+    "metadata": {
+      "category": "Database",
+      "tags": [
+        "Auth",
+        "kNN"
+      ]
+    }
+  },
+  {
+    "id": "doc_042",
+    "title": "Technical Guide 42: Sub-system OpenSearch integration",
+    "text": "This document describes the best practices for handling OpenSearch and Agents in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling OpenSearch, consider memory limits and API rate limits. For Agents, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/42",
+    "metadata": {
+      "category": "Infrastructure",
+      "tags": [
+        "OpenSearch",
+        "Agents"
+      ]
+    }
+  },
+  {
+    "id": "doc_043",
+    "title": "Technical Guide 43: Sub-system Hybrid Search integration",
+    "text": "This document describes the best practices for handling Hybrid Search and Resilience in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Hybrid Search, consider memory limits and API rate limits. For Resilience, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/43",
+    "metadata": {
+      "category": "Developer Tools",
+      "tags": [
+        "Hybrid Search",
+        "Resilience"
+      ]
+    }
+  },
+  {
+    "id": "doc_044",
+    "title": "Technical Guide 44: Sub-system kNN integration",
+    "text": "This document describes the best practices for handling kNN and MCP in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling kNN, consider memory limits and API rate limits. For MCP, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/44",
+    "metadata": {
+      "category": "Search Engineering",
+      "tags": [
+        "kNN",
+        "MCP"
+      ]
+    }
+  },
+  {
+    "id": "doc_045",
+    "title": "Technical Guide 45: Sub-system Agents integration",
+    "text": "This document describes the best practices for handling Agents and Kubernetes in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Agents, consider memory limits and API rate limits. For Kubernetes, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/45",
+    "metadata": {
+      "category": "AI Orchestration",
+      "tags": [
+        "Agents",
+        "Kubernetes"
+      ]
+    }
+  },
+  {
+    "id": "doc_046",
+    "title": "Technical Guide 46: Sub-system Resilience integration",
+    "text": "This document describes the best practices for handling Resilience and Docker in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Resilience, consider memory limits and API rate limits. For Docker, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/46",
+    "metadata": {
+      "category": "Security",
+      "tags": [
+        "Resilience",
+        "Docker"
+      ]
+    }
+  },
+  {
+    "id": "doc_047",
+    "title": "Technical Guide 47: Sub-system MCP integration",
+    "text": "This document describes the best practices for handling MCP and AWS in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling MCP, consider memory limits and API rate limits. For AWS, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/47",
+    "metadata": {
+      "category": "Database",
+      "tags": [
+        "MCP",
+        "AWS"
+      ]
+    }
+  },
+  {
+    "id": "doc_048",
+    "title": "Technical Guide 48: Sub-system Kubernetes integration",
+    "text": "This document describes the best practices for handling Kubernetes and Azure in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Kubernetes, consider memory limits and API rate limits. For Azure, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/48",
+    "metadata": {
+      "category": "Infrastructure",
+      "tags": [
+        "Kubernetes",
+        "Azure"
+      ]
+    }
+  },
+  {
+    "id": "doc_049",
+    "title": "Technical Guide 49: Sub-system Docker integration",
+    "text": "This document describes the best practices for handling Docker and TypeScript in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Docker, consider memory limits and API rate limits. For TypeScript, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/49",
+    "metadata": {
+      "category": "Developer Tools",
+      "tags": [
+        "Docker",
+        "TypeScript"
+      ]
+    }
+  },
+  {
+    "id": "doc_050",
+    "title": "Technical Guide 50: Sub-system AWS integration",
+    "text": "This document describes the best practices for handling AWS and NestJS in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling AWS, consider memory limits and API rate limits. For NestJS, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/50",
+    "metadata": {
+      "category": "Search Engineering",
+      "tags": [
+        "AWS",
+        "NestJS"
+      ]
+    }
+  },
+  {
+    "id": "doc_051",
+    "title": "Technical Guide 51: Sub-system Azure integration",
+    "text": "This document describes the best practices for handling Azure and SAP BTP in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Azure, consider memory limits and API rate limits. For SAP BTP, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/51",
+    "metadata": {
+      "category": "AI Orchestration",
+      "tags": [
+        "Azure",
+        "SAP BTP"
+      ]
+    }
+  },
+  {
+    "id": "doc_052",
+    "title": "Technical Guide 52: Sub-system TypeScript integration",
+    "text": "This document describes the best practices for handling TypeScript and Cloud Connector in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling TypeScript, consider memory limits and API rate limits. For Cloud Connector, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/52",
+    "metadata": {
+      "category": "Security",
+      "tags": [
+        "TypeScript",
+        "Cloud Connector"
+      ]
+    }
+  },
+  {
+    "id": "doc_053",
+    "title": "Technical Guide 53: Sub-system NestJS integration",
+    "text": "This document describes the best practices for handling NestJS and On-premise in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling NestJS, consider memory limits and API rate limits. For On-premise, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/53",
+    "metadata": {
+      "category": "Database",
+      "tags": [
+        "NestJS",
+        "On-premise"
+      ]
+    }
+  },
+  {
+    "id": "doc_054",
+    "title": "Technical Guide 54: Sub-system SAP BTP integration",
+    "text": "This document describes the best practices for handling SAP BTP and Jira in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling SAP BTP, consider memory limits and API rate limits. For Jira, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/54",
+    "metadata": {
+      "category": "Infrastructure",
+      "tags": [
+        "SAP BTP",
+        "Jira"
+      ]
+    }
+  },
+  {
+    "id": "doc_055",
+    "title": "Technical Guide 55: Sub-system Cloud Connector integration",
+    "text": "This document describes the best practices for handling Cloud Connector and API in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Cloud Connector, consider memory limits and API rate limits. For API, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/55",
+    "metadata": {
+      "category": "Developer Tools",
+      "tags": [
+        "Cloud Connector",
+        "API"
+      ]
+    }
+  },
+  {
+    "id": "doc_056",
+    "title": "Technical Guide 56: Sub-system On-premise integration",
+    "text": "This document describes the best practices for handling On-premise and Auth in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling On-premise, consider memory limits and API rate limits. For Auth, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/56",
+    "metadata": {
+      "category": "Search Engineering",
+      "tags": [
+        "On-premise",
+        "Auth"
+      ]
+    }
+  },
+  {
+    "id": "doc_057",
+    "title": "Technical Guide 57: Sub-system Jira integration",
+    "text": "This document describes the best practices for handling Jira and OpenSearch in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Jira, consider memory limits and API rate limits. For OpenSearch, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/57",
+    "metadata": {
+      "category": "AI Orchestration",
+      "tags": [
+        "Jira",
+        "OpenSearch"
+      ]
+    }
+  },
+  {
+    "id": "doc_058",
+    "title": "Technical Guide 58: Sub-system API integration",
+    "text": "This document describes the best practices for handling API and Hybrid Search in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling API, consider memory limits and API rate limits. For Hybrid Search, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/58",
+    "metadata": {
+      "category": "Security",
+      "tags": [
+        "API",
+        "Hybrid Search"
+      ]
+    }
+  },
+  {
+    "id": "doc_059",
+    "title": "Technical Guide 59: Sub-system Auth integration",
+    "text": "This document describes the best practices for handling Auth and kNN in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Auth, consider memory limits and API rate limits. For kNN, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/59",
+    "metadata": {
+      "category": "Database",
+      "tags": [
+        "Auth",
+        "kNN"
+      ]
+    }
+  },
+  {
+    "id": "doc_060",
+    "title": "Technical Guide 60: Sub-system OpenSearch integration",
+    "text": "This document describes the best practices for handling OpenSearch and Agents in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling OpenSearch, consider memory limits and API rate limits. For Agents, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/60",
+    "metadata": {
+      "category": "Infrastructure",
+      "tags": [
+        "OpenSearch",
+        "Agents"
+      ]
+    }
+  },
+  {
+    "id": "doc_061",
+    "title": "Technical Guide 61: Sub-system Hybrid Search integration",
+    "text": "This document describes the best practices for handling Hybrid Search and Resilience in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Hybrid Search, consider memory limits and API rate limits. For Resilience, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/61",
+    "metadata": {
+      "category": "Developer Tools",
+      "tags": [
+        "Hybrid Search",
+        "Resilience"
+      ]
+    }
+  },
+  {
+    "id": "doc_062",
+    "title": "Technical Guide 62: Sub-system kNN integration",
+    "text": "This document describes the best practices for handling kNN and MCP in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling kNN, consider memory limits and API rate limits. For MCP, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/62",
+    "metadata": {
+      "category": "Search Engineering",
+      "tags": [
+        "kNN",
+        "MCP"
+      ]
+    }
+  },
+  {
+    "id": "doc_063",
+    "title": "Technical Guide 63: Sub-system Agents integration",
+    "text": "This document describes the best practices for handling Agents and Kubernetes in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Agents, consider memory limits and API rate limits. For Kubernetes, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/63",
+    "metadata": {
+      "category": "AI Orchestration",
+      "tags": [
+        "Agents",
+        "Kubernetes"
+      ]
+    }
+  },
+  {
+    "id": "doc_064",
+    "title": "Technical Guide 64: Sub-system Resilience integration",
+    "text": "This document describes the best practices for handling Resilience and Docker in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Resilience, consider memory limits and API rate limits. For Docker, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/64",
+    "metadata": {
+      "category": "Security",
+      "tags": [
+        "Resilience",
+        "Docker"
+      ]
+    }
+  },
+  {
+    "id": "doc_065",
+    "title": "Technical Guide 65: Sub-system MCP integration",
+    "text": "This document describes the best practices for handling MCP and AWS in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling MCP, consider memory limits and API rate limits. For AWS, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/65",
+    "metadata": {
+      "category": "Database",
+      "tags": [
+        "MCP",
+        "AWS"
+      ]
+    }
+  },
+  {
+    "id": "doc_066",
+    "title": "Technical Guide 66: Sub-system Kubernetes integration",
+    "text": "This document describes the best practices for handling Kubernetes and Azure in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Kubernetes, consider memory limits and API rate limits. For Azure, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/66",
+    "metadata": {
+      "category": "Infrastructure",
+      "tags": [
+        "Kubernetes",
+        "Azure"
+      ]
+    }
+  },
+  {
+    "id": "doc_067",
+    "title": "Technical Guide 67: Sub-system Docker integration",
+    "text": "This document describes the best practices for handling Docker and TypeScript in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Docker, consider memory limits and API rate limits. For TypeScript, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/67",
+    "metadata": {
+      "category": "Developer Tools",
+      "tags": [
+        "Docker",
+        "TypeScript"
+      ]
+    }
+  },
+  {
+    "id": "doc_068",
+    "title": "Technical Guide 68: Sub-system AWS integration",
+    "text": "This document describes the best practices for handling AWS and NestJS in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling AWS, consider memory limits and API rate limits. For NestJS, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/68",
+    "metadata": {
+      "category": "Search Engineering",
+      "tags": [
+        "AWS",
+        "NestJS"
+      ]
+    }
+  },
+  {
+    "id": "doc_069",
+    "title": "Technical Guide 69: Sub-system Azure integration",
+    "text": "This document describes the best practices for handling Azure and SAP BTP in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Azure, consider memory limits and API rate limits. For SAP BTP, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/69",
+    "metadata": {
+      "category": "AI Orchestration",
+      "tags": [
+        "Azure",
+        "SAP BTP"
+      ]
+    }
+  },
+  {
+    "id": "doc_070",
+    "title": "Technical Guide 70: Sub-system TypeScript integration",
+    "text": "This document describes the best practices for handling TypeScript and Cloud Connector in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling TypeScript, consider memory limits and API rate limits. For Cloud Connector, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/70",
+    "metadata": {
+      "category": "Security",
+      "tags": [
+        "TypeScript",
+        "Cloud Connector"
+      ]
+    }
+  },
+  {
+    "id": "doc_071",
+    "title": "Technical Guide 71: Sub-system NestJS integration",
+    "text": "This document describes the best practices for handling NestJS and On-premise in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling NestJS, consider memory limits and API rate limits. For On-premise, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/71",
+    "metadata": {
+      "category": "Database",
+      "tags": [
+        "NestJS",
+        "On-premise"
+      ]
+    }
+  },
+  {
+    "id": "doc_072",
+    "title": "Technical Guide 72: Sub-system SAP BTP integration",
+    "text": "This document describes the best practices for handling SAP BTP and Jira in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling SAP BTP, consider memory limits and API rate limits. For Jira, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/72",
+    "metadata": {
+      "category": "Infrastructure",
+      "tags": [
+        "SAP BTP",
+        "Jira"
+      ]
+    }
+  },
+  {
+    "id": "doc_073",
+    "title": "Technical Guide 73: Sub-system Cloud Connector integration",
+    "text": "This document describes the best practices for handling Cloud Connector and API in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Cloud Connector, consider memory limits and API rate limits. For API, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/73",
+    "metadata": {
+      "category": "Developer Tools",
+      "tags": [
+        "Cloud Connector",
+        "API"
+      ]
+    }
+  },
+  {
+    "id": "doc_074",
+    "title": "Technical Guide 74: Sub-system On-premise integration",
+    "text": "This document describes the best practices for handling On-premise and Auth in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling On-premise, consider memory limits and API rate limits. For Auth, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/74",
+    "metadata": {
+      "category": "Search Engineering",
+      "tags": [
+        "On-premise",
+        "Auth"
+      ]
+    }
+  },
+  {
+    "id": "doc_075",
+    "title": "Technical Guide 75: Sub-system Jira integration",
+    "text": "This document describes the best practices for handling Jira and OpenSearch in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Jira, consider memory limits and API rate limits. For OpenSearch, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/75",
+    "metadata": {
+      "category": "AI Orchestration",
+      "tags": [
+        "Jira",
+        "OpenSearch"
+      ]
+    }
+  },
+  {
+    "id": "doc_076",
+    "title": "Technical Guide 76: Sub-system API integration",
+    "text": "This document describes the best practices for handling API and Hybrid Search in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling API, consider memory limits and API rate limits. For Hybrid Search, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/76",
+    "metadata": {
+      "category": "Security",
+      "tags": [
+        "API",
+        "Hybrid Search"
+      ]
+    }
+  },
+  {
+    "id": "doc_077",
+    "title": "Technical Guide 77: Sub-system Auth integration",
+    "text": "This document describes the best practices for handling Auth and kNN in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Auth, consider memory limits and API rate limits. For kNN, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/77",
+    "metadata": {
+      "category": "Database",
+      "tags": [
+        "Auth",
+        "kNN"
+      ]
+    }
+  },
+  {
+    "id": "doc_078",
+    "title": "Technical Guide 78: Sub-system OpenSearch integration",
+    "text": "This document describes the best practices for handling OpenSearch and Agents in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling OpenSearch, consider memory limits and API rate limits. For Agents, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/78",
+    "metadata": {
+      "category": "Infrastructure",
+      "tags": [
+        "OpenSearch",
+        "Agents"
+      ]
+    }
+  },
+  {
+    "id": "doc_079",
+    "title": "Technical Guide 79: Sub-system Hybrid Search integration",
+    "text": "This document describes the best practices for handling Hybrid Search and Resilience in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Hybrid Search, consider memory limits and API rate limits. For Resilience, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/79",
+    "metadata": {
+      "category": "Developer Tools",
+      "tags": [
+        "Hybrid Search",
+        "Resilience"
+      ]
+    }
+  },
+  {
+    "id": "doc_080",
+    "title": "Technical Guide 80: Sub-system kNN integration",
+    "text": "This document describes the best practices for handling kNN and MCP in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling kNN, consider memory limits and API rate limits. For MCP, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/80",
+    "metadata": {
+      "category": "Search Engineering",
+      "tags": [
+        "kNN",
+        "MCP"
+      ]
+    }
+  },
+  {
+    "id": "doc_081",
+    "title": "Technical Guide 81: Sub-system Agents integration",
+    "text": "This document describes the best practices for handling Agents and Kubernetes in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Agents, consider memory limits and API rate limits. For Kubernetes, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/81",
+    "metadata": {
+      "category": "AI Orchestration",
+      "tags": [
+        "Agents",
+        "Kubernetes"
+      ]
+    }
+  },
+  {
+    "id": "doc_082",
+    "title": "Technical Guide 82: Sub-system Resilience integration",
+    "text": "This document describes the best practices for handling Resilience and Docker in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Resilience, consider memory limits and API rate limits. For Docker, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/82",
+    "metadata": {
+      "category": "Security",
+      "tags": [
+        "Resilience",
+        "Docker"
+      ]
+    }
+  },
+  {
+    "id": "doc_083",
+    "title": "Technical Guide 83: Sub-system MCP integration",
+    "text": "This document describes the best practices for handling MCP and AWS in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling MCP, consider memory limits and API rate limits. For AWS, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/83",
+    "metadata": {
+      "category": "Database",
+      "tags": [
+        "MCP",
+        "AWS"
+      ]
+    }
+  },
+  {
+    "id": "doc_084",
+    "title": "Technical Guide 84: Sub-system Kubernetes integration",
+    "text": "This document describes the best practices for handling Kubernetes and Azure in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Kubernetes, consider memory limits and API rate limits. For Azure, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/84",
+    "metadata": {
+      "category": "Infrastructure",
+      "tags": [
+        "Kubernetes",
+        "Azure"
+      ]
+    }
+  },
+  {
+    "id": "doc_085",
+    "title": "Technical Guide 85: Sub-system Docker integration",
+    "text": "This document describes the best practices for handling Docker and TypeScript in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Docker, consider memory limits and API rate limits. For TypeScript, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/85",
+    "metadata": {
+      "category": "Developer Tools",
+      "tags": [
+        "Docker",
+        "TypeScript"
+      ]
+    }
+  },
+  {
+    "id": "doc_086",
+    "title": "Technical Guide 86: Sub-system AWS integration",
+    "text": "This document describes the best practices for handling AWS and NestJS in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling AWS, consider memory limits and API rate limits. For NestJS, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/86",
+    "metadata": {
+      "category": "Search Engineering",
+      "tags": [
+        "AWS",
+        "NestJS"
+      ]
+    }
+  },
+  {
+    "id": "doc_087",
+    "title": "Technical Guide 87: Sub-system Azure integration",
+    "text": "This document describes the best practices for handling Azure and SAP BTP in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Azure, consider memory limits and API rate limits. For SAP BTP, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/87",
+    "metadata": {
+      "category": "AI Orchestration",
+      "tags": [
+        "Azure",
+        "SAP BTP"
+      ]
+    }
+  },
+  {
+    "id": "doc_088",
+    "title": "Technical Guide 88: Sub-system TypeScript integration",
+    "text": "This document describes the best practices for handling TypeScript and Cloud Connector in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling TypeScript, consider memory limits and API rate limits. For Cloud Connector, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/88",
+    "metadata": {
+      "category": "Security",
+      "tags": [
+        "TypeScript",
+        "Cloud Connector"
+      ]
+    }
+  },
+  {
+    "id": "doc_089",
+    "title": "Technical Guide 89: Sub-system NestJS integration",
+    "text": "This document describes the best practices for handling NestJS and On-premise in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling NestJS, consider memory limits and API rate limits. For On-premise, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/89",
+    "metadata": {
+      "category": "Database",
+      "tags": [
+        "NestJS",
+        "On-premise"
+      ]
+    }
+  },
+  {
+    "id": "doc_090",
+    "title": "Technical Guide 90: Sub-system SAP BTP integration",
+    "text": "This document describes the best practices for handling SAP BTP and Jira in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling SAP BTP, consider memory limits and API rate limits. For Jira, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/90",
+    "metadata": {
+      "category": "Infrastructure",
+      "tags": [
+        "SAP BTP",
+        "Jira"
+      ]
+    }
+  },
+  {
+    "id": "doc_091",
+    "title": "Technical Guide 91: Sub-system Cloud Connector integration",
+    "text": "This document describes the best practices for handling Cloud Connector and API in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Cloud Connector, consider memory limits and API rate limits. For API, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/91",
+    "metadata": {
+      "category": "Developer Tools",
+      "tags": [
+        "Cloud Connector",
+        "API"
+      ]
+    }
+  },
+  {
+    "id": "doc_092",
+    "title": "Technical Guide 92: Sub-system On-premise integration",
+    "text": "This document describes the best practices for handling On-premise and Auth in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling On-premise, consider memory limits and API rate limits. For Auth, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/92",
+    "metadata": {
+      "category": "Search Engineering",
+      "tags": [
+        "On-premise",
+        "Auth"
+      ]
+    }
+  },
+  {
+    "id": "doc_093",
+    "title": "Technical Guide 93: Sub-system Jira integration",
+    "text": "This document describes the best practices for handling Jira and OpenSearch in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Jira, consider memory limits and API rate limits. For OpenSearch, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/93",
+    "metadata": {
+      "category": "AI Orchestration",
+      "tags": [
+        "Jira",
+        "OpenSearch"
+      ]
+    }
+  },
+  {
+    "id": "doc_094",
+    "title": "Technical Guide 94: Sub-system API integration",
+    "text": "This document describes the best practices for handling API and Hybrid Search in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling API, consider memory limits and API rate limits. For Hybrid Search, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/94",
+    "metadata": {
+      "category": "Security",
+      "tags": [
+        "API",
+        "Hybrid Search"
+      ]
+    }
+  },
+  {
+    "id": "doc_095",
+    "title": "Technical Guide 95: Sub-system Auth integration",
+    "text": "This document describes the best practices for handling Auth and kNN in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Auth, consider memory limits and API rate limits. For kNN, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/95",
+    "metadata": {
+      "category": "Database",
+      "tags": [
+        "Auth",
+        "kNN"
+      ]
+    }
+  },
+  {
+    "id": "doc_096",
+    "title": "Technical Guide 96: Sub-system OpenSearch integration",
+    "text": "This document describes the best practices for handling OpenSearch and Agents in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling OpenSearch, consider memory limits and API rate limits. For Agents, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/96",
+    "metadata": {
+      "category": "Infrastructure",
+      "tags": [
+        "OpenSearch",
+        "Agents"
+      ]
+    }
+  },
+  {
+    "id": "doc_097",
+    "title": "Technical Guide 97: Sub-system Hybrid Search integration",
+    "text": "This document describes the best practices for handling Hybrid Search and Resilience in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Hybrid Search, consider memory limits and API rate limits. For Resilience, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/97",
+    "metadata": {
+      "category": "Developer Tools",
+      "tags": [
+        "Hybrid Search",
+        "Resilience"
+      ]
+    }
+  },
+  {
+    "id": "doc_098",
+    "title": "Technical Guide 98: Sub-system kNN integration",
+    "text": "This document describes the best practices for handling kNN and MCP in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling kNN, consider memory limits and API rate limits. For MCP, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/98",
+    "metadata": {
+      "category": "Search Engineering",
+      "tags": [
+        "kNN",
+        "MCP"
+      ]
+    }
+  },
+  {
+    "id": "doc_099",
+    "title": "Technical Guide 99: Sub-system Agents integration",
+    "text": "This document describes the best practices for handling Agents and Kubernetes in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Agents, consider memory limits and API rate limits. For Kubernetes, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/99",
+    "metadata": {
+      "category": "AI Orchestration",
+      "tags": [
+        "Agents",
+        "Kubernetes"
+      ]
+    }
+  },
+  {
+    "id": "doc_100",
+    "title": "Technical Guide 100: Sub-system Resilience integration",
+    "text": "This document describes the best practices for handling Resilience and Docker in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Resilience, consider memory limits and API rate limits. For Docker, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/100",
+    "metadata": {
+      "category": "Security",
+      "tags": [
+        "Resilience",
+        "Docker"
+      ]
+    }
+  },
+  {
+    "id": "doc_101",
+    "title": "Technical Guide 101: Sub-system MCP integration",
+    "text": "This document describes the best practices for handling MCP and AWS in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling MCP, consider memory limits and API rate limits. For AWS, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/101",
+    "metadata": {
+      "category": "Database",
+      "tags": [
+        "MCP",
+        "AWS"
+      ]
+    }
+  },
+  {
+    "id": "doc_102",
+    "title": "Technical Guide 102: Sub-system Kubernetes integration",
+    "text": "This document describes the best practices for handling Kubernetes and Azure in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Kubernetes, consider memory limits and API rate limits. For Azure, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/102",
+    "metadata": {
+      "category": "Infrastructure",
+      "tags": [
+        "Kubernetes",
+        "Azure"
+      ]
+    }
+  },
+  {
+    "id": "doc_103",
+    "title": "Technical Guide 103: Sub-system Docker integration",
+    "text": "This document describes the best practices for handling Docker and TypeScript in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Docker, consider memory limits and API rate limits. For TypeScript, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/103",
+    "metadata": {
+      "category": "Developer Tools",
+      "tags": [
+        "Docker",
+        "TypeScript"
+      ]
+    }
+  },
+  {
+    "id": "doc_104",
+    "title": "Technical Guide 104: Sub-system AWS integration",
+    "text": "This document describes the best practices for handling AWS and NestJS in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling AWS, consider memory limits and API rate limits. For NestJS, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/104",
+    "metadata": {
+      "category": "Search Engineering",
+      "tags": [
+        "AWS",
+        "NestJS"
+      ]
+    }
+  },
+  {
+    "id": "doc_105",
+    "title": "Technical Guide 105: Sub-system Azure integration",
+    "text": "This document describes the best practices for handling Azure and SAP BTP in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Azure, consider memory limits and API rate limits. For SAP BTP, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/105",
+    "metadata": {
+      "category": "AI Orchestration",
+      "tags": [
+        "Azure",
+        "SAP BTP"
+      ]
+    }
+  },
+  {
+    "id": "doc_106",
+    "title": "Technical Guide 106: Sub-system TypeScript integration",
+    "text": "This document describes the best practices for handling TypeScript and Cloud Connector in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling TypeScript, consider memory limits and API rate limits. For Cloud Connector, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/106",
+    "metadata": {
+      "category": "Security",
+      "tags": [
+        "TypeScript",
+        "Cloud Connector"
+      ]
+    }
+  },
+  {
+    "id": "doc_107",
+    "title": "Technical Guide 107: Sub-system NestJS integration",
+    "text": "This document describes the best practices for handling NestJS and On-premise in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling NestJS, consider memory limits and API rate limits. For On-premise, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/107",
+    "metadata": {
+      "category": "Database",
+      "tags": [
+        "NestJS",
+        "On-premise"
+      ]
+    }
+  },
+  {
+    "id": "doc_108",
+    "title": "Technical Guide 108: Sub-system SAP BTP integration",
+    "text": "This document describes the best practices for handling SAP BTP and Jira in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling SAP BTP, consider memory limits and API rate limits. For Jira, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/108",
+    "metadata": {
+      "category": "Infrastructure",
+      "tags": [
+        "SAP BTP",
+        "Jira"
+      ]
+    }
+  },
+  {
+    "id": "doc_109",
+    "title": "Technical Guide 109: Sub-system Cloud Connector integration",
+    "text": "This document describes the best practices for handling Cloud Connector and API in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Cloud Connector, consider memory limits and API rate limits. For API, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/109",
+    "metadata": {
+      "category": "Developer Tools",
+      "tags": [
+        "Cloud Connector",
+        "API"
+      ]
+    }
+  },
+  {
+    "id": "doc_110",
+    "title": "Technical Guide 110: Sub-system On-premise integration",
+    "text": "This document describes the best practices for handling On-premise and Auth in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling On-premise, consider memory limits and API rate limits. For Auth, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/110",
+    "metadata": {
+      "category": "Search Engineering",
+      "tags": [
+        "On-premise",
+        "Auth"
+      ]
+    }
+  },
+  {
+    "id": "doc_111",
+    "title": "Technical Guide 111: Sub-system Jira integration",
+    "text": "This document describes the best practices for handling Jira and OpenSearch in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Jira, consider memory limits and API rate limits. For OpenSearch, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/111",
+    "metadata": {
+      "category": "AI Orchestration",
+      "tags": [
+        "Jira",
+        "OpenSearch"
+      ]
+    }
+  },
+  {
+    "id": "doc_112",
+    "title": "Technical Guide 112: Sub-system API integration",
+    "text": "This document describes the best practices for handling API and Hybrid Search in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling API, consider memory limits and API rate limits. For Hybrid Search, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/112",
+    "metadata": {
+      "category": "Security",
+      "tags": [
+        "API",
+        "Hybrid Search"
+      ]
+    }
+  },
+  {
+    "id": "doc_113",
+    "title": "Technical Guide 113: Sub-system Auth integration",
+    "text": "This document describes the best practices for handling Auth and kNN in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Auth, consider memory limits and API rate limits. For kNN, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/113",
+    "metadata": {
+      "category": "Database",
+      "tags": [
+        "Auth",
+        "kNN"
+      ]
+    }
+  },
+  {
+    "id": "doc_114",
+    "title": "Technical Guide 114: Sub-system OpenSearch integration",
+    "text": "This document describes the best practices for handling OpenSearch and Agents in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling OpenSearch, consider memory limits and API rate limits. For Agents, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/114",
+    "metadata": {
+      "category": "Infrastructure",
+      "tags": [
+        "OpenSearch",
+        "Agents"
+      ]
+    }
+  },
+  {
+    "id": "doc_115",
+    "title": "Technical Guide 115: Sub-system Hybrid Search integration",
+    "text": "This document describes the best practices for handling Hybrid Search and Resilience in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Hybrid Search, consider memory limits and API rate limits. For Resilience, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/115",
+    "metadata": {
+      "category": "Developer Tools",
+      "tags": [
+        "Hybrid Search",
+        "Resilience"
+      ]
+    }
+  },
+  {
+    "id": "doc_116",
+    "title": "Technical Guide 116: Sub-system kNN integration",
+    "text": "This document describes the best practices for handling kNN and MCP in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling kNN, consider memory limits and API rate limits. For MCP, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/116",
+    "metadata": {
+      "category": "Search Engineering",
+      "tags": [
+        "kNN",
+        "MCP"
+      ]
+    }
+  },
+  {
+    "id": "doc_117",
+    "title": "Technical Guide 117: Sub-system Agents integration",
+    "text": "This document describes the best practices for handling Agents and Kubernetes in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Agents, consider memory limits and API rate limits. For Kubernetes, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/117",
+    "metadata": {
+      "category": "AI Orchestration",
+      "tags": [
+        "Agents",
+        "Kubernetes"
+      ]
+    }
+  },
+  {
+    "id": "doc_118",
+    "title": "Technical Guide 118: Sub-system Resilience integration",
+    "text": "This document describes the best practices for handling Resilience and Docker in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Resilience, consider memory limits and API rate limits. For Docker, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/118",
+    "metadata": {
+      "category": "Security",
+      "tags": [
+        "Resilience",
+        "Docker"
+      ]
+    }
+  },
+  {
+    "id": "doc_119",
+    "title": "Technical Guide 119: Sub-system MCP integration",
+    "text": "This document describes the best practices for handling MCP and AWS in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling MCP, consider memory limits and API rate limits. For AWS, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/119",
+    "metadata": {
+      "category": "Database",
+      "tags": [
+        "MCP",
+        "AWS"
+      ]
+    }
+  },
+  {
+    "id": "doc_120",
+    "title": "Technical Guide 120: Sub-system Kubernetes integration",
+    "text": "This document describes the best practices for handling Kubernetes and Azure in an enterprise environment. It covers deployment steps, security configurations like TLS, authentication tokens, and common troubleshooting patterns. When scaling Kubernetes, consider memory limits and API rate limits. For Azure, refer to the main architecture diagram.",
+    "url": "https://enterprise-docs.internal/article/120",
+    "metadata": {
+      "category": "Infrastructure",
+      "tags": [
+        "Kubernetes",
+        "Azure"
+      ]
+    }
+  }
+]
